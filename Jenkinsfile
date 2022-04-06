@@ -13,7 +13,9 @@ pipeline {
             steps {
                 echo 'Init the terraform to Download and Apply terraform with auto approve option'
                 sh '''
-                cd terraform
+                pwd
+                cd terraforminfra
+                pwd
                 terraform init
                 terraform validate
                 terraform fmt
