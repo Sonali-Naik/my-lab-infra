@@ -24,5 +24,16 @@ pipeline {
                 '''
             }
         }
+        
+        
+        stage('Ansible to Configure DB and Web Server') {
+            steps {
+                sh '''
+                echo "Running Ansible Command"
+                cd ansibleinfracm
+                ansible-playbook playbook.yml -i inventory
+                '''
+            }
+        }
     }
 }
