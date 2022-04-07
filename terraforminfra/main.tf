@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Sonali-Naik 
-nishanthkumarpathi
-/
-my-lab-infra
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-my-lab-infra/terraforminfra/main.tf
-@nishanthkumarpathi
-nishanthkumarpathi added ansible and terrform interpolation code
-Latest commit 9d6753a 23 hours ago
- History
- 1 contributor
-57 lines (51 sloc)  1.38 KB
-  
 terraform {
   required_providers {
     docker = {
